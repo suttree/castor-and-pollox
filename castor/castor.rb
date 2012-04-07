@@ -16,16 +16,22 @@ class Castor
 
     page = '/home/suttree/public_html/troisen.com/public/test.html'
     doc = Nokogiri::HTML(open(page))
+
+    reversed = []
+    doc.css('div#all')[0].css('ul').children.collect{ |li| reversed << li }
+    doc.css('div#all')[0].css('ul').children.remove
+
     div = doc.css('div#all')[0].css('ul')[0]
 
     url = entry.url
     title = Castor::tidy(entry.title)
 
     story = '<li>'
-    story += "<a href='#{url}' target='_blank'>#{Castor::truncate(title, 70)}</a>"
+    story += "<a href='#{url}' target='_blank'>#{Castor::truncate(title, 60)}</a>"
     story += '</li>'
-    
+
     div.add_child(story)
+    reversed.collect{ |li| div.add_child(li) }
 
     File.open(page, 'w') {|f| f.write(doc.to_xml) }
   end
@@ -50,8 +56,8 @@ class Castor
 end
 
 
-if (1 + rand(3) == 3)
+#if (1 + rand(3) == 3)
   Castor::taller
-else
-  puts "Going back to sleep..."
-end
+#else
+#  puts "Going back to sleep..."
+#end
