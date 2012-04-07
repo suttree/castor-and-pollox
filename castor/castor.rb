@@ -22,7 +22,7 @@ class Castor
     title = Castor::tidy(entry.title)
 
     story = '<li>'
-    story += "<a href='#{url}' target='_blank'>#{Castor::truncate(title, 75)}</a>"
+    story += "<a href='#{url}' target='_blank'>#{Castor::truncate(title, 70)}</a>"
     story += '</li>'
     
     div.add_child(story)
