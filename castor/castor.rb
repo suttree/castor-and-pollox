@@ -56,8 +56,8 @@ class Castor
 end
 
 
-#if (1 + rand(3) == 3)
+if (1 + rand(3) == 3)
   Castor::taller
-#else
-#  puts "Going back to sleep..."
-#end
+else
+  puts "Going back to sleep..."
+end
