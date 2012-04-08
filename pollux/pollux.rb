@@ -5,9 +5,9 @@ require 'open-uri'
 require 'nokogiri'
 require 'htmlentities'
 
-class Castor
+class Pollux
   def self.taller
-    @config = YAML::load(File.open('/home/suttree/public_html/troisen.com/gemini/config/castor.yml'))
+    @config = YAML::load(File.open('/home/suttree/public_html/troisen.com/gemini/config/pollux.yml'))
 
     url = @config['urls'].sort_by{ rand }[0]
     feed = FeedNormalizer::FeedNormalizer.parse open(url)
@@ -24,10 +24,10 @@ class Castor
     div = doc.css('div#all')[0].css('ul')[0]
 
     url = entry.url
-    title = Castor::tidy(entry.title)
+    title = Pollux::tidy(entry.title)
 
     story = '<li>'
-    story += "<b>Castor</b>: <a href='#{url}' target='_blank'>#{Castor::truncate(title, 50)}</a>"
+    story += "<b>Pollux</b>: <a href='#{url}' target='_blank'>#{Pollux::truncate(title, 50)}</a>"
     story += '</li>'
 
     div.add_child(story)
@@ -47,8 +47,8 @@ class Castor
   end
 
   def self.tidy(text)
-    coder = HTMLEntities.new
-    coder.encode(text)
+    #coder = HTMLEntities.new
+    #coder.encode(text)
 
     text.gsub!(/\n/, ' ')
     text.scan(/[[:print:]]/).join
@@ -56,8 +56,8 @@ class Castor
 end
 
 
-if (1 + rand(4) == 4)
-  Castor::taller
+if (1 + rand(5) == 5)
+  Pollux::taller
 else
-  puts "[castor] Going back to sleep..."
+  puts "[pollux] Going back to sleep..."
 end
