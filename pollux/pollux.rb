@@ -56,7 +56,7 @@ class Pollux
 end
 
 
-if (1 + rand(5) == 5)
+if (1 + rand(6) == 6)
   Pollux::taller
 else
   puts "[pollux] Going back to sleep..."
