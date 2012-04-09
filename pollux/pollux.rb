@@ -27,11 +27,11 @@ class Pollux
     title = Pollux::tidy(entry.title)
 
     story = '<li>'
-    story += "<b>Pollux</b>: <a href='#{url}' target='_blank'>#{Pollux::truncate(title, 50)}</a>"
+    story += "<b>Pollux</b>: <a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a>"
     story += '</li>'
 
     div.add_child(story)
-    reversed.collect{ |li| div.add_child(li) }
+    reversed[0..30].collect{ |li| div.add_child(li) }
 
     File.open(page, 'w') {|f| f.write(doc.to_xml) }
   end
@@ -56,7 +56,7 @@ class Pollux
 end
 
 
-if (1 + rand(6) == 6)
+if (1 + rand(4) == 4)
   Pollux::taller
 else
   puts "[pollux] Going back to sleep..."
