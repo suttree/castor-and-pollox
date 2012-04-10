@@ -14,7 +14,7 @@ class Pollux
     entry = feed.entries.sort_by{ rand }.first
     entry.clean!
 
-    page = '/home/suttree/public_html/troisen.com/public/castor.html'
+    page = '/home/suttree/public_html/troisen.com/public/cap.html'
     doc = Nokogiri::HTML(open(page))
 
     reversed = []
