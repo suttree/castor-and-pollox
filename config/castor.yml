@@ -22,3 +22,10 @@ urls:
   - http://www.google.com/trends/hottrends/atom/hourly
   - http://bits.blogs.nytimes.com/feed/
   - http://networkawesome.com/rss/shows
+  - http://feeds.pinboard.in/rss/popular/
+  - http://www.nowness.com/issue/syndicate?output=rss
+  - http://feeds.pinboard.in/rss/popular/wikipedia/
+  - http://waxy.org/links/index.xml
+  - http://daringfireball.net/index.xml
+  - http://rss.cnn.com/rss/edition.rss
+  - http://ragb.ag/rss
