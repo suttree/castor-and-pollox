@@ -7,8 +7,6 @@ urls:
   - http://feeds.feedburner.com/TheAtlantic
   - http://allthingsd.com/feed/
   - http://feeds.feedburner.com/bigthink/main
-  - http://page2rss.com/rss/82d1a3eaf37249bece1634d247f123d4
-  - http://zenhabits.net/feed/
   - http://smarthistory.khanacademy.org/rss
   - http://wonderopolis.org/feed/
   - http://www.fastcodesign.com/rss.xml
@@ -22,11 +20,12 @@ urls:
   - http://www.google.com/trends/hottrends/atom/hourly
   - http://bits.blogs.nytimes.com/feed/
   - http://networkawesome.com/rss/shows
-  - http://feeds.pinboard.in/rss/popular/
   - http://www.nowness.com/issue/syndicate?output=rss
   - http://feeds.pinboard.in/rss/popular/wikipedia/
   - http://waxy.org/links/index.xml
   - http://daringfireball.net/index.xml
   - http://rss.cnn.com/rss/edition.rss
-  - http://ragb.ag/rss
   - http://feeds.feedburner.com/flavorwire-rss
+  - http://www.collaborativeconsumption.com/atom.xml
+  - http://www.theverge.com/rss/index.xml
+  - http://www.thisispopularculture.com/feed/

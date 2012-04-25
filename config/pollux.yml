@@ -1,27 +1,21 @@
 urls:
-  - http://feeds2.feedburner.com/PitchforkLatestNews
   - http://feeds2.feedburner.com/PitchforkFeatures
   - http://www.postsecret.com/feeds/posts/default?alt=rss
-  - http://page2rss.com/rss/0e695ef2955f51e39302ae11139b5981
   - http://www.thisiswhyimbroke.com/feed
   - http://tvtropes.org/pmwiki/rss.xml
   - http://feeds.feedburner.com/uproxx/filmdrunk
   - http://blog.okcupid.com/index.php/feed/
-  - http://www.theverge.com/rss/index.xml
   - http://catalogliving.net/rss
-  - http://page2rss.com/rss/cdf1dd412d47809f138a65dd9c0498e8
-  - http://page2rss.com/rss/442f58bddbab6bf73eb98e5c261c4461
   - http://feeds.feedburner.com/getthefive/pWyz
   - http://feeds.feedburner.com/twistedsifter
   - http://feeds.feedburner.com/getaddictedto
   - http://feeds.feedburner.com/The99Percent
-  - http://page2rss.com/rss/08886babbf589154f8fa3f914c46a805
   - http://hellogiggles.com/feed
   - http://feeds2.feedburner.com/slashfilm
   - http://backend.deviantart.com/rss.xml?q=special%3Add
   - http://rss1.smashingmagazine.com/feed/
-  - http://www.rssmicro.com/feeds/top-feeds.rss
   - http://kellyoxford.tumblr.com/rss
   - http://www.buzzfeed.com/index.xml
-  - http://www.thisispopularculture.com/feed/
   - http://www.4ad.com/news.rss
+  - http://emmas.blogg.se/index.rss
+  - http://feeds.pinboard.in/rss/popular/
