@@ -29,3 +29,6 @@ urls:
   - http://www.collaborativeconsumption.com/atom.xml
   - http://www.theverge.com/rss/index.xml
   - http://www.thisispopularculture.com/feed/
+  - http://news.google.com/news?pz=1&cf=all&ned=uk&hl=en&topic=h&num=3&output=rss
+  - http://feeds.feedburner.com/devourfeed
+  - http://mindtheproduct.com/feed/
