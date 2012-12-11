@@ -22,6 +22,9 @@ urls:
   - http://networkawesome.com/rss/shows
   - http://www.nowness.com/issue/syndicate?output=rss
   - http://feeds.pinboard.in/rss/popular/wikipedia/
+  - http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
+  - http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=potd&feedformat=atom
+  - http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=onthisday&feedformat=atom
   - http://waxy.org/links/index.xml
   - http://daringfireball.net/index.xml
   - http://rss.cnn.com/rss/edition.rss
@@ -35,3 +38,5 @@ urls:
   - http://feeds.feedburner.com/mcsweeneys
   - http://artstarstv.com/rss
   - http://www.edidomus.it/ed/feedyn/feed.cfm?name=domus_english
+  - http://mindtheproduct.com/feed/
+  - http://startup-marketing.com/feed/
