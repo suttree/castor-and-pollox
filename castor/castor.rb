@@ -54,7 +54,8 @@ class Castor
 end
 
 
-if (1 + rand(4) == 4)
+probability = 4
+if (rand(9) > probability)
   Castor::taller
 else
   puts "[castor] Going back to sleep..."
