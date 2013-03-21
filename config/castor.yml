@@ -1,4 +1,5 @@
 urls:
+  - http://feeds2.feedburner.com/BpsResearchDigest
   - http://feeds.feedburner.com/Metafilter  
   - http://feeds.feedburner.com/fastcompany/headlines
   - http://www.newyorker.com/services/rss/feeds/everything.xml
@@ -7,8 +8,6 @@ urls:
   - http://feeds.feedburner.com/bigthink/main
   - http://smarthistory.khanacademy.org/rss
   - http://www.fastcodesign.com/rss.xml
-  - http://www.aldaily.com/rss/rss.xml
-  - http://feeds.feedburner.com/rhizome-fp
   - http://artdaily.org/rss.asp
   - http://feeds.feedburner.com/RSSMicro/Top_News
   - http://www.google.com/trends/hottrends/atom/hourly
@@ -23,6 +22,6 @@ urls:
   - http://feeds.feedburner.com/mcsweeneys
   - http://www.edidomus.it/ed/feedyn/feed.cfm?name=domus_english
   - http://www.scottaaronson.com/blog/?feed=rss2
-  - http://idlewords.com/index.xml
   - http://feeds.ribbonfarm.com/Ribbonfarm?format=xml
   - http://www.ediblegeography.com/feed/
+  - http://natgeofound.tumblr.com/rss
