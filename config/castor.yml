@@ -1,4 +1,5 @@
 urls:
+  - "http://feeds.feedburner.com/AeonMagazineEssays?format=xml"
   - http://feeds2.feedburner.com/BpsResearchDigest
   - http://feeds.feedburner.com/Metafilter  
   - http://feeds.feedburner.com/fastcompany/headlines
