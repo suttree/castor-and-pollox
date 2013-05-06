@@ -1,15 +1,12 @@
 urls:
   - "http://feeds.feedburner.com/AeonMagazineEssays?format=xml"
-  - http://feeds2.feedburner.com/BpsResearchDigest
   - http://feeds.feedburner.com/Metafilter  
   - http://feeds.feedburner.com/fastcompany/headlines
   - http://www.newyorker.com/services/rss/feeds/everything.xml
   - http://economix.blogs.nytimes.com/feed/
   - http://allthingsd.com/feed/
   - http://feeds.feedburner.com/bigthink/main
-  - http://smarthistory.khanacademy.org/rss
   - http://www.fastcodesign.com/rss.xml
-  - http://artdaily.org/rss.asp
   - http://feeds.feedburner.com/RSSMicro/Top_News
   - http://www.google.com/trends/hottrends/atom/hourly
   - http://bits.blogs.nytimes.com/feed/
@@ -20,14 +17,13 @@ urls:
   - http://feeds.feedburner.com/flavorwire-rss
   - http://www.collaborativeconsumption.com/atom.xml
   - "http://news.google.com/news?pz=1&cf=all&ned=uk&hl=en&topic=h&num=3&output=rss"
-  - http://feeds.feedburner.com/mcsweeneys
   - http://www.edidomus.it/ed/feedyn/feed.cfm?name=domus_english
   - http://www.scottaaronson.com/blog/?feed=rss2
   - http://feeds.ribbonfarm.com/Ribbonfarm?format=xml
   - http://www.ediblegeography.com/feed/
   - http://natgeofound.tumblr.com/rss
-  - http://inpossibleme.weebly.com/1/feed
   - "http://gdata.youtube.com/feeds/base/users/destinws2/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
   - http://millionsmillions.tumblr.com/rss
   - http://www.amazon.com/rss/new-releases/books/10132?tag=themillions10-20
   - http://jasminatesanovic.wordpress.com/feed/
+  - http://www.ultraculture.org/feed/
