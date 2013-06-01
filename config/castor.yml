@@ -5,12 +5,12 @@ urls:
   - http://www.newyorker.com/services/rss/feeds/everything.xml
   - http://economix.blogs.nytimes.com/feed/
   - http://allthingsd.com/feed/
-  - http://feeds.feedburner.com/bigthink/main
   - http://www.fastcodesign.com/rss.xml
   - http://feeds.feedburner.com/RSSMicro/Top_News
   - http://www.google.com/trends/hottrends/atom/hourly
   - http://bits.blogs.nytimes.com/feed/
   - http://feeds.pinboard.in/rss/popular/wikipedia/
+  - http://feeds.pinboard.in/rss/recent/
   - "http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
   - http://waxy.org/links/index.xml
   - http://rss.cnn.com/rss/edition.rss
@@ -22,10 +22,11 @@ urls:
   - http://feeds.ribbonfarm.com/Ribbonfarm?format=xml
   - http://www.ediblegeography.com/feed/
   - http://natgeofound.tumblr.com/rss
-  - "http://gdata.youtube.com/feeds/base/users/destinws2/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
   - http://millionsmillions.tumblr.com/rss
   - http://www.amazon.com/rss/new-releases/books/10132?tag=themillions10-20
   - http://jasminatesanovic.wordpress.com/feed/
   - http://www.ultraculture.org/feed/
   - http://programmingisterrible.com/rss
   - http://blog.sironaconsulting.com/sironasays/rss.xml
+  - http://www.futurist.com/feed/
+  - http://stratechery.com/feed/
