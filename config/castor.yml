@@ -25,7 +25,6 @@ urls:
   - http://stratechery.com/feed/
   - http://themindfulbit.com/feed
   - http://feeds2.feedburner.com/subtraction
-  - http://feeds.feedburner.com/TynerBlain
   - http://www.svproduct.com/articles/rss
   - http://www.quora.com/rss
   - http://quoratopstories.tumblr.com/rss
@@ -35,3 +34,5 @@ urls:
   - http://blog.thefetch.com/feed/
   - http://www.instapaper.com/starred/rss/32456/bZWXYBxVKw54XVmkuyBJXrGf6zk
   - http://www.instapaper.com/rss/32456/aIqyeEjXO049bzmeiyg07YPGnY
+  - http://blog.prettylittlestatemachine.com/atom.xml
+  - http://postshift.com/feed/
