@@ -14,8 +14,6 @@ urls:
   - http://feeds.feedburner.com/flavorwire-rss
   - "http://news.google.com/news?pz=1&cf=all&ned=uk&hl=en&topic=h&num=3&output=rss"
   - http://www.edidomus.it/ed/feedyn/feed.cfm?name=domus_english
-  - http://feeds.ribbonfarm.com/Ribbonfarm?format=xml
-  - http://www.ediblegeography.com/feed/
   - http://natgeofound.tumblr.com/rss
   - http://millionsmillions.tumblr.com/rss
   - http://www.amazon.com/rss/new-releases/books/10132?tag=themillions10-20
@@ -24,16 +22,14 @@ urls:
   - http://themindfulbit.com/feed
   - http://www.svproduct.com/articles/rss
   - http://quoratopstories.tumblr.com/rss
-  - http://feeds.feedburner.com/Christophercummingscom
-  - http://feeds.feedburner.com/SpatiallyRelevant
   - http://feeds.feedburner.com/BothSidesOfTheTable
   - http://blog.thefetch.com/feed/
   - http://www.instapaper.com/starred/rss/32456/bZWXYBxVKw54XVmkuyBJXrGf6zk
   - http://www.instapaper.com/rss/32456/aIqyeEjXO049bzmeiyg07YPGnY
-  - http://postshift.com/feed/
   - http://www.feeddude.com/feeds/1038284433863214737.rss
   - http://feeds.feedburner.com/springwise/
   - http://we-make-money-not-art.com/rss.xml
   - http://documentarystorm.com/feed
   - http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/rss.xml
   - https://www.thebaffler.com/notebook/rss
+  - http://stackexchange.com/feeds/questions
