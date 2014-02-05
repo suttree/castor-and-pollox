@@ -1,4 +1,5 @@
 urls:
+  - http://feeds.theguardian.com/theguardian/uk/culture/rss
   - "http://feeds.feedburner.com/AeonMagazineEssays?format=xml"
   - http://feeds.feedburner.com/Metafilter  
   - http://www.newyorker.com/services/rss/feeds/everything.xml
