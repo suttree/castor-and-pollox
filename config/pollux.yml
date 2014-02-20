@@ -1,11 +1,8 @@
 urls:
-  - http://www.buzzfeed.com/index.xml
-  - http://feeds.feedburner.com/uproxx/filmdrunk
+  - http://hypem.com/feed/popular/3day/1/feed.xml
   - http://feeds2.feedburner.com/slashfilm
-  - http://rss1.smashingmagazine.com/feed/
   - http://www.4ad.com/news.rss
   - http://feeds.feedburner.com/devourfeed
-  - http://www.nowness.com/issue/syndicate?output=rss
   - http://feeds.boingboing.net/boingboing/iBag
   - http://www.bspcn.com/feed/
   - http://feeds.delicious.com/v2/rss/crystaltips
