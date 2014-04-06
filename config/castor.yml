@@ -1,4 +1,5 @@
 urls:
+  - http://www.techmeme.com/feed.xml
   - http://feeds.theguardian.com/theguardian/uk/culture/rss
   - "http://feeds.feedburner.com/AeonMagazineEssays?format=xml"
   - http://feeds.feedburner.com/Metafilter  
