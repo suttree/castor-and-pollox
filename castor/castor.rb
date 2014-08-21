@@ -26,7 +26,7 @@ class Castor
     url = entry.url
     title = Castor::tidy(entry.title)
 
-    story = "<li><b>Castor</b>: <a href='#{url}' target='_blank'>#{Castor::truncate(title, 15)}</a></li>"
+    story = "<li><a href='#{url}' target='_blank'>#{Castor::truncate(title, 15)}</a> <b>Castor</b></li>"
 
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }

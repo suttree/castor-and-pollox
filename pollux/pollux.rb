@@ -26,7 +26,7 @@ class Pollux
     url = entry.url
     title = Pollux::tidy(entry.title)
 
-    story = "<li><b>Pollux</b>: <a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a></li>"
+    story = "<li><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a> <small><b>Pollux</b></small></li>"
 
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
