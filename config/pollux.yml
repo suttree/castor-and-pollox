@@ -1,11 +1,10 @@
 urls:
-  - http://www.shlur.com/home/feed/
   - http://www.vice.com/en_uk/rss
   - http://hypem.com/feed/popular/3day/1/feed.xml
   - http://feeds2.feedburner.com/slashfilm
   - http://www.4ad.com/news.rss
   - http://feeds.boingboing.net/boingboing/iBag
-  - http://ea1.co/rss
   - http://weirdios.tumblr.com/rss
   - http://roxyintransit.tumblr.com/rss
   - http://www.kuro5hin.org/backend.rdf
+  - http://unplugyourkids.com/feed/

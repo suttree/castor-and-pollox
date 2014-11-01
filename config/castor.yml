@@ -2,25 +2,23 @@ urls:
   - http://www.ayoungertheatre.com/feed/
   - http://www.minimallyminimal.com/blog?format=rss
   - http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
-  - http://www.techmeme.com/feed.xml
   - http://feeds.theguardian.com/theguardian/uk/culture/rss
   - http://www.newyorker.com/services/rss/feeds/everything.xml
   - http://economix.blogs.nytimes.com/feed/
-  - http://feeds.feedburner.com/RSSMicro/Top_News
   - http://www.google.com/trends/hottrends/atom/hourly
   - http://feeds.pinboard.in/rss/popular/wikipedia/
-  - http://feeds.pinboard.in/rss/recent/
   - "http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
-  - http://waxy.org/links/index.xml
   - http://natgeofound.tumblr.com/rss
   - http://www.ultraculture.org/feed/
   - http://quoratopstories.tumblr.com/rss
   - http://feeds.feedburner.com/BothSidesOfTheTable
-  - http://blog.thefetch.com/feed/
   - http://www.feeddude.com/feeds/1038284433863214737.rss
   - http://we-make-money-not-art.com/rss.xml
-  - http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/rss.xml
   - https://www.thebaffler.com/notebook/rss
   - http://stackexchange.com/feeds/questions
   - http://openinglines.org/feed/
   - http://feeds2.feedburner.com/itsnicethat/SlXC
+  - http://pankmagazine.com/feed/
+  - http://feeds.feedburner.com/mcsweeneys
+  - http://www.decompmagazine.com/feed.xml
+  - http://www.readtwelvestories.com/feed/
