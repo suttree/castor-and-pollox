@@ -1,10 +1,9 @@
 urls:
-  - http://www.theguardian.com/profile/jonronson/rss
+  - "http://createfeed.fivefilters.org/extract.php?url=capwatkins.com%2Flinks%2F&in_id_or_class=&url_contains="
   - http://www.theguardian.com/stage/theatre/rss
   - http://www.vice.com/en_uk/rss
   - http://hypem.com/feed/popular/3day/1/feed.xml
   - http://feeds2.feedburner.com/slashfilm
   - http://feeds.boingboing.net/boingboing/iBag
   - http://weirdios.tumblr.com/rss
-  - http://roxyintransit.tumblr.com/rss
   - http://feeds.feedburner.com/zenpencils
