@@ -1,4 +1,5 @@
 urls:
+  - http://feeds2.feedburner.com/poorgirleatswell/cRhe
   - "http://createfeed.fivefilters.org/extract.php?url=capwatkins.com%2Flinks%2F&in_id_or_class=&url_contains="
   - http://www.theguardian.com/stage/theatre/rss
   - http://www.vice.com/en_uk/rss
@@ -10,3 +11,4 @@ urls:
   - http://impeccabletablemanners.theguyliner.com/feed/
   - http://www.holidaypirates.com/feed
   - http://www.4newswall.com/rss
+  - http://exystence.net/feed/
