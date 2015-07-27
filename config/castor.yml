@@ -13,12 +13,12 @@ urls:
   - http://we-make-money-not-art.com/rss.xml
   - https://www.thebaffler.com/notebook/rss
   - http://feeds2.feedburner.com/itsnicethat/SlXC
-  - http://feeds.feedburner.com/mcsweeneys
   - http://www.decompmagazine.com/feed.xml
-  - http://gdata.youtube.com/feeds/base/users/everyframeapainting/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile
+  - "http://gdata.youtube.com/feeds/base/users/everyframeapainting/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
   - http://natgeofound.tumblr.com/rss
   - http://www.crummy.com/rss.xml
   - http://www.ursulakleguin.com/rss.xml
-  - http://feeds.feedburner.com/TheLiteraryPlatform
   - http://www.saastr.com/feed/
   - http://feeds2.feedburner.com/TheAwl
+  - http://cmxhub.com/feed/
+  - http://feeds.feedburner.com/digitaltonto
