@@ -1,4 +1,7 @@
 urls:
+  - "https://twitrss.me/twitter_user_to_rss/?user=70sscifiart"
+  - http://www.fsgworkinprogress.com/feed/
+  - http://titansgraverpg.tumblr.com/rss
   - http://thelostbyway.com/feed
   - http://www.vice.com/en_uk/rss
   - http://feeds2.feedburner.com/poorgirleatswell/cRhe
@@ -15,3 +18,4 @@ urls:
   - http://www.4newswall.com/rss
   - http://exystence.net/feed/
   - http://weputachipinit.tumblr.com/rss
+  - http://www.dictionaryofobscuresorrows.com/rss

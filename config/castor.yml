@@ -1,4 +1,7 @@
 urls:
+  - http://adage.com/rss-feed?section_id=301&xml=RSS2
+  - http://globalvoicesonline.org/feeds/
+  - http://breakingsmart.com/feed/
   - http://www.ayoungertheatre.com/feed/
   - http://www.minimallyminimal.com/blog?format=rss
   - http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
