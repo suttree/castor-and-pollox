@@ -1,4 +1,5 @@
 urls:
+  - http://warpspire.com/feed/
   - http://adage.com/rss-feed?section_id=301&xml=RSS2
   - http://globalvoicesonline.org/feeds/
   - http://breakingsmart.com/feed/
