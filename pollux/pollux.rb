@@ -64,7 +64,7 @@ end
 
 
 probability = 6
-if (rand(9) > probability || 1 == 1)
+if (rand(9) > probability)
   Pollux::taller
 else
   puts "[pollux] Going back to sleep..."

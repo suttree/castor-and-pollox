@@ -63,7 +63,7 @@ end
 
 
 probability = 4
-if (rand(9) > probability || 1 == 1)
+if (rand(9) > probability)
   Castor::taller
 else
   puts "[castor] Going back to sleep..."
