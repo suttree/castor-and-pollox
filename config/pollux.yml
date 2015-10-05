@@ -1,4 +1,6 @@
 urls:
+  - http://roadsandkingdoms.com/feed/
+  - http://www.theundscvrd.com/feed/
   - http://www.theguardian.com/theobserver/observer-tech-monthly/rss
   - "https://twitrss.me/twitter_user_to_rss/?user=70sscifiart"
   - http://www.fsgworkinprogress.com/feed/
@@ -20,3 +22,4 @@ urls:
   - http://exystence.net/feed/
   - http://weputachipinit.tumblr.com/rss
   - http://www.dictionaryofobscuresorrows.com/rss
+  - https://www.somewhere.com/feed

@@ -4,6 +4,8 @@ require 'feed-normalizer'
 require 'open-uri'
 require 'nokogiri'
 require 'htmlentities'
+require 'summarize'
+require 'pismo'
 
 class Castor
   def self.taller
@@ -13,6 +15,11 @@ class Castor
     feed = FeedNormalizer::FeedNormalizer.parse open(url)
     entry = feed.entries.sort_by{ rand }.first
     entry.clean!
+
+    doc = Pismo[entry.id]
+
+    summary, topics = Nokogiri::HTML(doc.body).text.summarize(:ratio => 10, :topics => true)
+    #puts topics.inspect
 
     page = '/home/suttree/public_html/troisen.com/public/cap.html'
     doc = Nokogiri::HTML(open(page))
@@ -25,8 +32,9 @@ class Castor
 
     url = entry.url
     title = Castor::tidy(entry.title)
+    summary = Castor::tidy(summary)
 
-    story = "<li><a href='#{url}' target='_blank'>#{Castor::truncate(title, 15)}</a> <small><b>Castor</b></small></li>"
+    story = "<li><a href='#{url}' target='_blank'>#{Castor::truncate(title, 15)}</a><small><b>~ Castor</b><br>#{summary}</small></li>"
 
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
@@ -46,7 +54,7 @@ class Castor
 
   def self.tidy(text)
     coder = HTMLEntities.new
-    coder.encode(text)
+    coder.encode(text) rescue false
 
     text.gsub!(/\n/, ' ')
     text.scan(/[[:print:]]/).join
@@ -55,7 +63,7 @@ end
 
 
 probability = 4
-if (rand(9) > probability)
+if (rand(9) > probability || 1 == 1)
   Castor::taller
 else
   puts "[castor] Going back to sleep..."

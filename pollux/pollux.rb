@@ -4,6 +4,8 @@ require 'feed-normalizer'
 require 'open-uri'
 require 'nokogiri'
 require 'htmlentities'
+require 'summarize'
+require 'pismo'
 
 class Pollux
   def self.taller
@@ -13,6 +15,11 @@ class Pollux
     feed = FeedNormalizer::FeedNormalizer.parse open(url)
     entry = feed.entries.sort_by{ rand }.first
     entry.clean!
+
+    doc = Pismo[entry.id]
+
+    summary, topics = Nokogiri::HTML(doc.body).text.summarize(:ratio => 10, :topics => true)
+    #puts topics.inspect
 
     page = '/home/suttree/public_html/troisen.com/public/cap.html'
     doc = Nokogiri::HTML(open(page))
@@ -25,8 +32,10 @@ class Pollux
 
     url = entry.url
     title = Pollux::tidy(entry.title)
+    summary = Pollux::tidy(summary)
 
-    story = "<li><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a> <small><b>Pollux</b></small></li>"
+    #story = "<li><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a> <small><b>Pollux</b></small></li>"
+    story = "<li><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a><small><b>~ Pollux</b><br>#{summary}</small></li>"
 
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
@@ -55,7 +64,7 @@ end
 
 
 probability = 6
-if (rand(9) > probability)
+if (rand(9) > probability || 1 == 1)
   Pollux::taller
 else
   puts "[pollux] Going back to sleep..."

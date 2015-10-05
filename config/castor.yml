@@ -1,4 +1,6 @@
 urls:
+  - http://feeds.feedburner.com/motherjones/main
+  - http://feeds.feedburner.com/jamesaltucher
   - http://warpspire.com/feed/
   - http://adage.com/rss-feed?section_id=301&xml=RSS2
   - http://globalvoicesonline.org/feeds/
