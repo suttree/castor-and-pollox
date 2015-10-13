@@ -14,11 +14,12 @@ class Castor
     url = @config['urls'].sort_by{ rand }[0]
     feed = FeedNormalizer::FeedNormalizer.parse open(url)
     entry = feed.entries.sort_by{ rand }.first
-    entry.clean!
+    entry.clean! rescue nil
 
     doc = Pismo[entry.id]
 
-    summary, topics = Nokogiri::HTML(doc.body).text.summarize(:ratio => 10, :topics => true)
+    summary, topics = Nokogiri::HTML(doc.body).text.summarize(:ratio => 5, :topics => true)
+    summary = summary.scan(/[^\.!?]+[\.!?]/).map(&:strip)[0..2].flatten rescue summary.truncate(150)
     #puts topics.inspect
 
     page = '/home/suttree/public_html/troisen.com/public/cap.html'
