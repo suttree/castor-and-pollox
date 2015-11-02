@@ -1,4 +1,9 @@
 urls:
+  - http://feeds.feedburner.com/uclb/FMME
+  - http://feeds.feedburner.com/booktwo
+  - http://grantland.com/features/feed/
+  - http://feeds.feedburner.com/oreilly/radar/atom
+  - http://hackingrambert.tumblr.com/rss
   - http://feeds.feedburner.com/motherjones/main
   - http://feeds.feedburner.com/jamesaltucher
   - http://warpspire.com/feed/
