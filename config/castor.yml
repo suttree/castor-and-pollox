@@ -9,7 +9,7 @@ urls:
   - http://feeds.feedburner.com/jamesaltucher
   - http://warpspire.com/feed/
   - http://adage.com/rss-feed?section_id=301&xml=RSS2
-  - http://globalvoicesonline.org/feeds/
+  - https://globalvoicesonline.org/feeds/
   - http://breakingsmart.com/feed/
   - http://www.ayoungertheatre.com/feed/
   - http://www.minimallyminimal.com/blog?format=rss
@@ -23,7 +23,6 @@ urls:
   - http://quoratopstories.tumblr.com/rss
   - http://www.feeddude.com/feeds/1038284433863214737.rss
   - http://we-make-money-not-art.com/rss.xml
-  - https://www.thebaffler.com/notebook/rss
   - http://feeds2.feedburner.com/itsnicethat/SlXC
   - http://www.decompmagazine.com/feed.xml
   - "http://gdata.youtube.com/feeds/base/users/everyframeapainting/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"

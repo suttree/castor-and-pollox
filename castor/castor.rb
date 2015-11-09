@@ -35,7 +35,7 @@ class Castor
     url = entry.url
     title = Castor::tidy(entry.title)
     summary = Castor::tidy(summary)
-    summary = summary + '<br>' if summary.present?
+    summary = summary + '<br>' unless (summary.nil? || summary.empty?)
 
     story = "<li id='castor'><a href='#{url}' target='_blank'>#{Castor::truncate(title, 15)}</a><br><small>#{summary}<b>~ Castor</b></small></li>"
 

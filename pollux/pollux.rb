@@ -35,9 +35,9 @@ class Pollux
     url = entry.url
     title = Pollux::tidy(entry.title)
     summary = Pollux::tidy(summary)
-    summary = summary + '<br>' if summary.present?
+    summary = summary + '<br>'  unless (summary.nil? || summary.empty?)
 
-    story = "<li id='pollux'><span><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a><br><small>#{summary}<b>~ Pollux</b></small></span></li>"
+    story = "<li id='pollux'><p><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a><br><small>#{summary}<b>~ Pollux</b></small></p></li>"
 
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
