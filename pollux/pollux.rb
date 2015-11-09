@@ -18,8 +18,9 @@ class Pollux
 
     doc = Pismo[entry.id]
 
-    summary, topics = Nokogiri::HTML(doc.body).text.summarize(:ratio => 60, :topics => true)
-    summary = summary.scan(/[^\.!?]+[\.!?]/).map(&:strip)[0..2].flatten rescue summary.truncate(150)
+    summary, topics = Nokogiri::HTML(doc.body).text.summarize(:ratio => 25, :topics => true)
+    summary = summary.scan(/[^\.!?]+[\.!?]/).map(&:strip)[0..2].flatten.join(' ') rescue summary.truncate(150)
+    #puts summary.inspect
     #puts topics.inspect
 
     page = '/home/suttree/public_html/troisen.com/public/cap.html'
@@ -36,7 +37,7 @@ class Pollux
     summary = Pollux::tidy(summary)
 
     #story = "<li><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a> <small><b>Pollux</b></small></li>"
-    story = "<li><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a><small><b>~ Pollux</b><br>#{summary}</small></li>"
+    story = "<li id='pollux'><a href='#{url}' target='_blank'>#{Pollux::truncate(title, 15)}</a><small><b>~ Pollux</b><br>#{summary}</small></li>"
 
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
@@ -55,8 +56,10 @@ class Pollux
   end
 
   def self.tidy(text)
-    #coder = HTMLEntities.new
-    #coder.encode(text)
+    return '' unless text
+
+    coder = HTMLEntities.new
+    coder.encode(text)
 
     text.gsub!(/\n/, ' ')
     text.scan(/[[:print:]]/).join
