@@ -1,4 +1,5 @@
 urls:
+  - "https://theconversation.com/articles.atom?language=en"
   - http://feeds.feedburner.com/uclb/FMME
   - http://feeds.feedburner.com/booktwo
   - http://grantland.com/features/feed/
