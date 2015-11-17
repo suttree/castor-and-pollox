@@ -1,35 +1,13 @@
 urls:
-  - "https://theconversation.com/articles.atom?language=en"
-  - http://feeds.feedburner.com/uclb/FMME
-  - http://feeds.feedburner.com/booktwo
-  - http://grantland.com/features/feed/
-  - http://feeds.feedburner.com/oreilly/radar/atom
-  - http://hackingrambert.tumblr.com/rss
-  - http://feeds.feedburner.com/motherjones/main
-  - http://feeds.feedburner.com/jamesaltucher
-  - http://warpspire.com/feed/
-  - http://adage.com/rss-feed?section_id=301&xml=RSS2
+  - http://feeds.feedburner.com/AtlanticInternational
+  - http://rss.nytimes.com/services/xml/rss/nyt/InternationalHome.xml
+  - http://www.aljazeera.com/xml/rss/all.xml
   - https://globalvoicesonline.org/feeds/
   - http://breakingsmart.com/feed/
-  - http://www.ayoungertheatre.com/feed/
-  - http://www.minimallyminimal.com/blog?format=rss
-  - http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
-  - http://feeds.theguardian.com/theguardian/uk/culture/rss
   - http://www.newyorker.com/services/rss/feeds/everything.xml
   - http://economix.blogs.nytimes.com/feed/
   - http://www.google.com/trends/hottrends/atom/hourly
-  - http://feeds.pinboard.in/rss/popular/wikipedia/
-  - "http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
-  - http://quoratopstories.tumblr.com/rss
-  - http://www.feeddude.com/feeds/1038284433863214737.rss
-  - http://we-make-money-not-art.com/rss.xml
-  - http://feeds2.feedburner.com/itsnicethat/SlXC
-  - http://www.decompmagazine.com/feed.xml
-  - "http://gdata.youtube.com/feeds/base/users/everyframeapainting/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
+  - http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
   - http://natgeofound.tumblr.com/rss
-  - http://www.crummy.com/rss.xml
-  - http://www.ursulakleguin.com/rss.xml
   - http://www.saastr.com/feed/
   - http://feeds2.feedburner.com/TheAwl
-  - http://cmxhub.com/feed/
-  - http://feeds.feedburner.com/digitaltonto
