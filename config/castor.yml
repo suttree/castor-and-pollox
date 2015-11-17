@@ -5,7 +5,6 @@ urls:
   - https://globalvoicesonline.org/feeds/
   - http://breakingsmart.com/feed/
   - http://www.newyorker.com/services/rss/feeds/everything.xml
-  - http://economix.blogs.nytimes.com/feed/
   - http://www.google.com/trends/hottrends/atom/hourly
   - http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
   - http://natgeofound.tumblr.com/rss
