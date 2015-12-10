@@ -1,41 +1,38 @@
 urls:
+  - http://feeds.feedburner.com/londonist/sBMe
+  - http://marginalrevolution.com/feed
+  - http://marginalrevolution.com/marginalrevolution/category/books/feed
+  - https://www.fatherly.com/feeds/feed.rss
+  - http://macro.ycombinator.com/feed.xml
   - http://feeds.feedburner.com/weburbanist
   - http://roadsandkingdoms.com/feed/
   - http://www.theundscvrd.com/feed/
   - http://www.theguardian.com/theobserver/observer-tech-monthly/rss
   - "https://twitrss.me/twitter_user_to_rss/?user=70sscifiart"
   - http://www.fsgworkinprogress.com/feed/
-  - http://titansgraverpg.tumblr.com/rss
   - http://thelostbyway.com/feed
   - http://www.vice.com/en_uk/rss
   - http://feeds2.feedburner.com/poorgirleatswell/cRhe
-  - "http://createfeed.fivefilters.org/extract.php?url=capwatkins.com%2Flinks%2F&in_id_or_class=&url_contains="
   - http://www.theguardian.com/stage/theatre/rss
-  - http://www.vice.com/en_uk/rss
   - http://hypem.com/feed/popular/3day/1/feed.xml
   - http://feeds2.feedburner.com/slashfilm
-  - http://weirdios.tumblr.com/rss
   - http://feeds.feedburner.com/zenpencils
   - http://impeccabletablemanners.theguyliner.com/feed/
   - http://www.holidaypirates.com/feed
   - http://www.4newswall.com/rss
   - http://exystence.net/feed/
-  - http://weputachipinit.tumblr.com/rss
   - http://www.dictionaryofobscuresorrows.com/rss
-  - https://www.somewhere.com/feed
   - http://cmxhub.com/feed/
-  - http://feeds.feedburner.com/digitaltonto
   - http://www.ursulakleguin.com/rss.xml
   - http://www.crummy.com/rss.xml
   - http://www.decompmagazine.com/feed.xml
   - http://quoratopstories.tumblr.com/rss
   - http://www.feeddude.com/feeds/1038284433863214737.rss
-  - http://we-make-money-not-art.com/rss.xml
   - http://feeds.pinboard.in/rss/popular/wikipedia/
   - http://feeds.theguardian.com/theguardian/uk/culture/rss
   - http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
   - http://www.ayoungertheatre.com/feed/
-  - http://www.minimallyminimal.com/blog?format=rss
+  - "http://www.minimallyminimal.com/blog?format=rss"
   - http://www.gatesnotes.com/home/rss
   - "https://theconversation.com/articles.atom?language=en"
   - http://feeds.feedburner.com/uclb/FMME
@@ -44,7 +41,5 @@ urls:
   - http://feeds.feedburner.com/oreilly/radar/atom
   - http://hackingrambert.tumblr.com/rss
   - http://feeds.feedburner.com/motherjones/main
-  - http://feeds.feedburner.com/jamesaltucher
   - http://warpspire.com/feed/
-  - http://adage.com/rss-feed?section_id=301&xml=RSS2
   - "http://gdata.youtube.com/feeds/base/users/everyframeapainting/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"

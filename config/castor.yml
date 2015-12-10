@@ -1,12 +1,14 @@
 urls:
+  - https://interestingtalks.in/London/feed/
+  - http://www.iht.com/feed/
+  - http://rss.royalsociety.org/events/upcoming
+  - http://itch.io/feed/featured.xml
+  - http://www.conflict-news.com/feed/
   - http://feeds.feedburner.com/AtlanticInternational
-  - http://rss.nytimes.com/services/xml/rss/nyt/InternationalHome.xml
   - http://www.aljazeera.com/xml/rss/all.xml
   - https://globalvoicesonline.org/feeds/
   - http://breakingsmart.com/feed/
   - http://www.newyorker.com/services/rss/feeds/everything.xml
   - http://www.google.com/trends/hottrends/atom/hourly
-  - http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom
+  - "http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
   - http://natgeofound.tumblr.com/rss
-  - http://www.saastr.com/feed/
-  - http://feeds2.feedburner.com/TheAwl
