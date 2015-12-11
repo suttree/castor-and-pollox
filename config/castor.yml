@@ -1,14 +1,16 @@
 urls:
+  - http://marginalrevolution.com/feed
   - https://interestingtalks.in/London/feed/
   - http://www.iht.com/feed/
   - http://rss.royalsociety.org/events/upcoming
-  - http://itch.io/feed/featured.xml
-  - http://www.conflict-news.com/feed/
+  - "http://www.conflict-news.com/feed/"
   - http://feeds.feedburner.com/AtlanticInternational
   - http://www.aljazeera.com/xml/rss/all.xml
-  - https://globalvoicesonline.org/feeds/
-  - http://breakingsmart.com/feed/
+  - https://globalvoicesonline.org/feed/
   - http://www.newyorker.com/services/rss/feeds/everything.xml
   - http://www.google.com/trends/hottrends/atom/hourly
-  - "http://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
-  - http://natgeofound.tumblr.com/rss
+  - "https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
+  - http://breakingsmart.com/feed/
+  - http://feeds.ribbonfarm.com/Ribbonfarm
+  - http://feeds.pinboard.in/rss/popular/wikipedia/
+  - http://feeds.feedburner.com/WikipediaTodaysFeaturedArticle

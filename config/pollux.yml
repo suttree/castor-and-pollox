@@ -1,6 +1,5 @@
 urls:
   - http://feeds.feedburner.com/londonist/sBMe
-  - http://marginalrevolution.com/feed
   - http://marginalrevolution.com/marginalrevolution/category/books/feed
   - https://www.fatherly.com/feeds/feed.rss
   - http://macro.ycombinator.com/feed.xml
@@ -28,7 +27,6 @@ urls:
   - http://www.decompmagazine.com/feed.xml
   - http://quoratopstories.tumblr.com/rss
   - http://www.feeddude.com/feeds/1038284433863214737.rss
-  - http://feeds.pinboard.in/rss/popular/wikipedia/
   - http://feeds.theguardian.com/theguardian/uk/culture/rss
   - http://rss.nytimes.com/services/xml/rss/nyt/Arts.xml
   - http://www.ayoungertheatre.com/feed/
@@ -43,3 +41,5 @@ urls:
   - http://feeds.feedburner.com/motherjones/main
   - http://warpspire.com/feed/
   - "http://gdata.youtube.com/feeds/base/users/everyframeapainting/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
+  - http://itch.io/feed/featured.xml
+  - http://natgeofound.tumblr.com/rss
