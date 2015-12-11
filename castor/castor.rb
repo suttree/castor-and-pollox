@@ -32,7 +32,7 @@ class Castor
 
     div = doc.css('div#all')[0].css('ul')[0]
 
-    url = entry.url
+    url = entry.url || feed.url
     title = Castor::tidy(entry.title)
     summary = Castor::tidy(summary)
     summary = '<br>' + summary + '<br>' unless (summary.nil? || summary.empty?)
