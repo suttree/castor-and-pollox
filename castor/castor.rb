@@ -20,8 +20,7 @@ class Castor
     entry = feed.entries.sort_by{ rand }.first
     entry.clean! rescue nil
 
-    entry_url = (entry.urls.first || entry.id).strip!
-    source = open(entry_url, :allow_redirections => :safe).read
+    source = open(entry.urls.first, :allow_redirections => :safe).read
     content = Readability::Document.new(source).content
 
     summary, topics = content.summarize(:ratio => 5, :topics => true)
@@ -74,7 +73,7 @@ class Castor
 end
 
 
-probability = 4
+probability = 5
 if (rand(9) > probability)
   Castor::taller
 else

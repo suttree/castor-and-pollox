@@ -20,8 +20,7 @@ class Pollux
     entry = feed.entries.sort_by{ rand }.first
     entry.clean! rescue nil
 
-    entry_url = (entry.urls.first || entry.id).strip!
-    source = open(entry_url, :allow_redirections => :safe).read
+    source = open(entry.urls.first, :allow_redirections => :safe).read
     content = Readability::Document.new(source).content
 
     summary, topics = content.summarize(:ratio => 5, :topics => true)
@@ -69,6 +68,7 @@ class Pollux
 
     text.gsub!(/\n/, ' ')
     text.scan(/[[:print:]]/).join
+    text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
   end
 end
 
