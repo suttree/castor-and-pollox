@@ -2,26 +2,32 @@ require 'rubygems'
 require 'yaml'
 require 'feed-normalizer'
 require 'open-uri'
+require 'open_uri_redirections'
 require 'nokogiri'
+require 'readability'
 require 'htmlentities'
 require 'summarize'
-require 'pismo'
+require 'sanitize'
+require 'iconv'
 
 class Pollux
   def self.taller
     @config = YAML::load(File.open('/home/suttree/public_html/troisen.com/gemini/config/pollux.yml'))
 
     url = @config['urls'].sort_by{ rand }[0]
-    feed = FeedNormalizer::FeedNormalizer.parse open(url)
+    puts url
+    feed = FeedNormalizer::FeedNormalizer.parse open(url, :allow_redirections => :safe)
     entry = feed.entries.sort_by{ rand }.first
     entry.clean! rescue nil
 
-    doc = Pismo[entry.id]
+    entry_url = (entry.urls.first || entry.id).strip!
+    source = open(entry_url, :allow_redirections => :safe).read
+    content = Readability::Document.new(source).content
 
-    summary, topics = Nokogiri::HTML(doc.body).text.summarize(:ratio => 25, :topics => true)
+    summary, topics = content.summarize(:ratio => 5, :topics => true)
+
     summary = summary.scan(/[^\.!?]+[\.!?]/).map(&:strip)[0..2].flatten.join(' ') rescue summary.truncate(150)
-    #puts summary.inspect
-    #puts topics.inspect
+    summary = Sanitize.clean(summary).strip!
 
     page = '/home/suttree/public_html/troisen.com/public/cap.html'
     doc = Nokogiri::HTML(open(page))

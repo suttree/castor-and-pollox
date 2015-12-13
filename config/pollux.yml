@@ -1,4 +1,9 @@
 urls:
+  - http://noisey.vice.com/en_uk/rss
+  - http://motherboard.vice.com/en_uk/rss?trk_source=motherboard
+  - http://thecreatorsproject.vice.com/en_uk/rss
+  - http://www.vice.com/en_uk/rss
+  - https://broadly.vice.com/en_us/rss
   - http://feeds.feedburner.com/londonist/sBMe
   - http://marginalrevolution.com/marginalrevolution/category/books/feed
   - https://www.fatherly.com/feeds/feed.rss
