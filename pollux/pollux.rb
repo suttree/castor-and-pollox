@@ -14,7 +14,6 @@ class Pollux
   def self.taller
     @config = YAML::load(File.open('/home/suttree/public_html/troisen.com/gemini/config/pollux.yml'))
 
-puts @config['urls'].inspect
     url = @config['urls'].sort_by{ rand }[0]
     puts url
     feed = FeedNormalizer::FeedNormalizer.parse open(url, :allow_redirections => :safe)
