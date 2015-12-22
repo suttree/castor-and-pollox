@@ -1,5 +1,5 @@
 urls:
-  0 http://feeds.feedburner.com/thisisnthappiness
+  = http://feeds.feedburner.com/thisisnthappiness
   - http://noisey.vice.com/en_uk/rss
   - http://motherboard.vice.com/en_uk/rss?trk_source=motherboard
   - http://thecreatorsproject.vice.com/en_uk/rss
