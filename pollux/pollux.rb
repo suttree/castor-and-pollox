@@ -73,7 +73,7 @@ class Pollux
 end
 
 
-probability = 5
+probability = 6
 if (rand(9) > probability)
   Pollux::taller
 else

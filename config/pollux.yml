@@ -1,4 +1,5 @@
 urls:
+  0 http://feeds.feedburner.com/thisisnthappiness
   - http://noisey.vice.com/en_uk/rss
   - http://motherboard.vice.com/en_uk/rss?trk_source=motherboard
   - http://thecreatorsproject.vice.com/en_uk/rss
@@ -48,3 +49,4 @@ urls:
   - "http://gdata.youtube.com/feeds/base/users/everyframeapainting/uploads?alt=rss&v=2&orderby=published&client=ytapi-youtube-profile"
   - http://itch.io/feed/featured.xml
   - http://natgeofound.tumblr.com/rss
+  - http://www.awesometapes.com/feed/
