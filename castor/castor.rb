@@ -42,7 +42,7 @@ class Castor
     summary = Castor::tidy(summary)
     summary = '<br>' + summary + '<br>' unless (summary.nil? || summary.empty?)
 
-    story = "<li id='castor'><a href='#{url}' target='_blank'>#{Castor::truncate(title, 20)}</a><small>#{summary}<b>~ Castor</b></small></li>"
+    story = "<li id='castor'><a href='#{url}' target='_blank'>#{Castor::truncate(title, 20)}</a><small>#{summary}</small></li>"
 
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
