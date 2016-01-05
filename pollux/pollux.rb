@@ -67,7 +67,7 @@ class Pollux
     coder.encode(text)
 
     text.gsub!(/\n/, ' ')
-    text.scan(/[[:print:]]/).join
+    #text.scan(/[[:print:]]/).join
     text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
   end
 end
