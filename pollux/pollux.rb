@@ -9,6 +9,7 @@ require 'htmlentities'
 require 'summarize'
 require 'sanitize'
 require 'iconv'
+require 'uri'
 
 class Pollux
   def self.taller
@@ -20,7 +21,12 @@ class Pollux
     entry = feed.entries.sort_by{ rand }.first
     entry.clean! rescue nil
 
-    source = open(entry.urls.first, :allow_redirections => :safe).read
+    # handle atom feeds, e.g. Google Trends
+    source = if feed.parser == 'SimpleRSS'
+      open(URI.extract(entry.content).sort_by{ rand }.first, :allow_redirections => :safe).read
+    else
+      open(entry.urls.first, :allow_redirections => :safe).read
+    end
     content = Readability::Document.new(source).content
 
     summary, topics = content.summarize(:ratio => 5, :topics => true)

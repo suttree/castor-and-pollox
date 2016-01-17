@@ -9,6 +9,7 @@ require 'htmlentities'
 require 'summarize'
 require 'sanitize'
 require 'iconv'
+require 'uri'
 
 class Castor
   def self.taller
@@ -20,7 +21,12 @@ class Castor
     entry = feed.entries.sort_by{ rand }.first
     entry.clean! rescue nil
 
-    source = open(entry.urls.first, :allow_redirections => :safe).read
+    # handle atom feeds, e.g. Google Trends
+    source = if feed.parser == 'SimpleRSS'
+      open(URI.extract(entry.content).sort_by{ rand }.first, :allow_redirections => :safe).read
+    else
+      open(entry.urls.first, :allow_redirections => :safe).read
+    end
     content = Readability::Document.new(source).content
 
     summary, topics = content.summarize(:ratio => 5, :topics => true)
@@ -64,11 +70,12 @@ class Castor
     return '' unless text
 
     coder = HTMLEntities.new
-    coder.encode(text) rescue false
+    coder.encode(text) rescue text
 
     text.gsub!(/\n/, ' ')
     #text.scan(/[[:print:]]/).join
     #text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
+    text
   end
 end
 
