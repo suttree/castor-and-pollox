@@ -1,4 +1,9 @@
 urls:
+  - http://99percentinvisible.org/feed/
+  - http://feeds.feedburner.com/ThingsMagazine
+  - http://feeds.feedburner.com/LettersOfNote
+  - http://thefeature.net/rss/links
+  - http://raspberrypi.stackexchange.com/feeds
   - https://medium.com/feed/@EskoKilpi
   - https://www.youtube.com/feeds/videos.xml?channel_id=UCjFqcJQXGZ6T6sxyFB-5i6A
   - http://www.growlot.com/feed/

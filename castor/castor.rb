@@ -68,7 +68,7 @@ class Castor
 
     text.gsub!(/\n/, ' ')
     #text.scan(/[[:print:]]/).join
-    text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
+    #text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
   end
 end
 

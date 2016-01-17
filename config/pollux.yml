@@ -1,4 +1,7 @@
 urls:
+  - http://pitchfork.com/rss/tv/
+  - https://www.reddit.com/r/raspberry_pi/.rss
+  - http://feeds.feedburner.com/devourfeed
   - https://www.inverse.com/feed/articles.rss
   - http://feeds.feedburner.com/thisisnthappiness
   - http://noisey.vice.com/en_uk/rss
