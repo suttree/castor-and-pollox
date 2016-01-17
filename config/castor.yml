@@ -6,7 +6,6 @@ urls:
   - http://raspberrypi.stackexchange.com/feeds
   - https://medium.com/feed/@EskoKilpi
   - https://www.youtube.com/feeds/videos.xml?channel_id=UCjFqcJQXGZ6T6sxyFB-5i6A
-  - http://www.growlot.com/feed/
   - http://rss.slashdot.org/Slashdot/slashdotMain
   - https://www.hackread.com/feed/
   - https://news.vice.com/rss
@@ -32,3 +31,19 @@ urls:
   - http://feeds.feedburner.com/alistapart/main
   - http://feeds.feedburner.com/InterestingThingOfTheDay
   - http://lithub.com/feed/
+  - http://www.growlot.com/feed/
+  - https://news.google.com/news?pz=1&cf=all&ned=uk&hl=en&output=rss
+  - http://mf.feeds.reuters.com/reuters/UKVideoBreakingviews
+  - http://feeds.reuters.com/Reuters/worldNews
+  - http://www.dictionary.com/wordoftheday/wotd.rss
+  - http://www.questionablecontent.net/QCRSS.xml
+  - http://www.psychologytoday.com/collections/feed
+  - http://www.quotationspage.com/data/qotd.rss
+  - http://rss.sciam.com/ScientificAmerican-News
+  - http://feeds.newscientist.com/science-news
+  - http://peopleofdesign.ru/feed/
+  - http://www.economist.com/rss/
+  - http://www.businesswire.com/portal/site/home/rss/
+  - http://hbswk.hbs.edu/rss.html
+  - http://top25.sciencedirect.com/
+  - http://www.rssmicro.com/feeds/top-feeds.rss

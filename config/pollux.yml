@@ -1,4 +1,5 @@
 urls:
+  - http://feeds.reuters.com/news/artsculture
   - http://www.engadget.com/rss.xml
   - http://www.vg247.com/feed/
   - http://www.destructoid.com/rss.phtml
@@ -60,3 +61,4 @@ urls:
   - http://itch.io/feed/featured.xml
   - http://natgeofound.tumblr.com/rss
   - http://www.awesometapes.com/feed/
+  - http://postsecret.com/feed/
