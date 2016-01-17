@@ -69,13 +69,13 @@ class Pollux
   def self.tidy(text)
     return '' unless text
 
-    #coder = HTMLEntities.new
-    #coder.encode(text)
+    coder = HTMLEntities.new
+    coder.encode(text) rescue text
 
-    #text.gsub!(/\n/, ' ')
     text.gsub!(/\n/, ' ')
-    text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
-    text.scan(/[[:print:]]/).join
+    #text.scan(/[[:print:]]/).join
+    #text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
+    text
   end
 end
 
