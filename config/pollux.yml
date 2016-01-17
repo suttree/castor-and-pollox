@@ -1,4 +1,10 @@
 urls:
+  - http://www.engadget.com/rss.xml
+  - http://www.vg247.com/feed/
+  - http://www.destructoid.com/rss.phtml
+  - http://rss.escapistmagazine.com/videos/list/1.xml
+  - http://feeds2.feedburner.com/IndependentGaming
+  - http://www.bluesnews.com/news/news_1_0.rdf
   - http://pitchfork.com/rss/tv/
   - https://www.reddit.com/r/raspberry_pi/.rss
   - http://feeds.feedburner.com/devourfeed
