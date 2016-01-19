@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 require 'rubygems'
 require 'yaml'
 require 'feed-normalizer'
@@ -36,6 +38,7 @@ class Castor
 
     page = '/home/suttree/public_html/troisen.com/public/cap.html'
     doc = Nokogiri::HTML(open(page))
+    doc.encoding = 'utf-8'
 
     reversed = []
     doc.css('div#all')[0].css('ul').children.collect{ |li| reversed << li }
@@ -53,7 +56,7 @@ class Castor
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
 
-    File.open(page, 'w') {|f| f.write(doc.to_xml) }
+    File.open(page, 'w:utf-8') {|f| f.write(doc.to_html) }
   end
 
   def self.truncate(string, word_limit = 5)
@@ -69,12 +72,25 @@ class Castor
   def self.tidy(text)
     return '' unless text
 
-    coder = HTMLEntities.new
-    coder.encode(text) rescue text
+    #coder = HTMLEntities.new
+    #text = coder.encode(text) rescue text
+    #text = coder.decode(text) rescue text
 
-    text.gsub!(/\n/, ' ')
+    #text.gsub!(/\n/, ' ')
     #text.scan(/[[:print:]]/).join
     #text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
+
+    text.gsub!(/"/, "'");
+    text.gsub!(/\u2018/, "'");
+    text.gsub!(/[”“]/, '"');
+    text.gsub!(/’/, "'");
+
+    if String.method_defined?(:encode)
+      text.encode!('UTF-8', 'UTF-8', :invalid => :replace)
+    else
+      ic = Iconv.new('UTF-8', 'UTF-8//IGNORE')
+      text = ic.iconv(text)
+    end
     text
   end
 end

@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 require 'rubygems'
 require 'yaml'
 require 'feed-normalizer'
@@ -36,6 +38,7 @@ class Pollux
 
     page = '/home/suttree/public_html/troisen.com/public/cap.html'
     doc = Nokogiri::HTML(open(page))
+    doc.encoding = 'utf-8'
 
     reversed = []
     doc.css('div#all')[0].css('ul').children.collect{ |li| reversed << li }
@@ -53,7 +56,7 @@ class Pollux
     div.add_child(story)
     reversed[0..30].collect{ |li| div.add_child(li) }
 
-    File.open(page, 'w') {|f| f.write(doc.to_xml) }
+    File.open(page, 'w:utf-8') {|f| f.write(doc.to_xml) }
   end
 
   def self.truncate(string, word_limit = 5)
@@ -69,13 +72,14 @@ class Pollux
   def self.tidy(text)
     return '' unless text
 
-    coder = HTMLEntities.new
-    coder.encode(text) rescue text
+    #coder = HTMLEntities.new
+    #text = coder.encode(text) rescue text
+    #text = coder.decode(text) rescue text
 
-    text.gsub!(/\n/, ' ')
+    #text.gsub!(/\n/, ' ')
     #text.scan(/[[:print:]]/).join
     #text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
-    text
+    text.encode('iso-8859-1').encode('utf-8')
   end
 end
 
