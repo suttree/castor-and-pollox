@@ -61,10 +61,10 @@ class Castor
 
   def self.truncate(string, word_limit = 5)
     words = string.split(/\s/)
-    if words.size >= word_limit 
+    if words.size >= word_limit
       last_word = words.last
       words[0,(word_limit-1)].join(" ") + '...' + last_word
-    else 
+    else
       string
     end
   end
@@ -80,10 +80,13 @@ class Castor
     #text.scan(/[[:print:]]/).join
     #text = Iconv.conv('ASCII//IGNORE', 'UTF8', text)
 
+    # From http://kevinquillen.com/programming/2014/06/23/ruby-gets-shit-done/
     text.gsub!(/"/, "'");
     text.gsub!(/\u2018/, "'");
     text.gsub!(/[”“]/, '"');
     text.gsub!(/’/, "'");
+    text.gsub!(/(\r)?\n/, "");
+    text.gsub!(/\s+/, ' ');
 
     if String.method_defined?(:encode)
       text.encode!('UTF-8', 'UTF-8', :invalid => :replace)
