@@ -88,13 +88,7 @@ class Castor
     text.gsub!(/(\r)?\n/, "");
     text.gsub!(/\s+/, ' ');
 
-    if String.method_defined?(:encode)
-      text.encode!('UTF-8', 'UTF-8', :invalid => :replace)
-    else
-      ic = Iconv.new('UTF-8', 'UTF-8//IGNORE')
-      text = ic.iconv(text)
-    end
-    text
+    text.encode('iso-8859-1').encode('utf-8')
   end
 end
 
