@@ -1,10 +1,15 @@
 urls:
+  - http://www.cabinetmagazine.org/rss/rss.xml
+  - http://jods.mitpress.mit.edu/data/rss.xml
+  - http://www.ibtimes.co.uk/rss/feed
+  - http://www.bloombergview.com/rss
+  - http://feeds2.feedburner.com/TheAwl
+  - http://gborjas.org/feed/
   - http://99percentinvisible.org/feed/
   - http://feeds.feedburner.com/ThingsMagazine
   - http://feeds.feedburner.com/LettersOfNote
   - http://thefeature.net/rss/links
   - http://raspberrypi.stackexchange.com/feeds
-  - https://medium.com/feed/@EskoKilpi
   - https://www.youtube.com/feeds/videos.xml?channel_id=UCjFqcJQXGZ6T6sxyFB-5i6A
   - http://rss.slashdot.org/Slashdot/slashdotMain
   - https://www.hackread.com/feed/
@@ -20,14 +25,11 @@ urls:
   - http://www.newyorker.com/services/rss/feeds/everything.xml
   - http://www.google.com/trends/hottrends/atom/hourly
   - "https://en.wikipedia.org/w/api.php?action=featuredfeed&feed=featured&feedformat=atom"
-  - http://breakingsmart.com/feed/
   - http://feeds.ribbonfarm.com/Ribbonfarm
   - http://feeds.pinboard.in/rss/popular/wikipedia/
   - http://feeds.feedburner.com/typepad/dboyd/innovationinpractice
   - http://feeds.feedburner.com/fastcoexist/feed
-  - http://www.boardofinnovation.com/feed/
   - http://scottbarrykaufman.com/feed/
-  - http://www.creativitypost.com/site/feed
   - http://feeds.feedburner.com/alistapart/main
   - http://feeds.feedburner.com/InterestingThingOfTheDay
   - http://lithub.com/feed/
