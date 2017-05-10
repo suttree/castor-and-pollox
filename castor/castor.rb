@@ -93,7 +93,7 @@ class Castor
 end
 
 
-probability = 5
+probability = 6
 if (rand(9) > probability)
   Castor::taller
 else
